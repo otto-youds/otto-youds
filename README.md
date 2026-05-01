@@ -1,16 +1,26 @@
-## Hi there 👋
-
-<!--
-**otto-youds/otto-youds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Otto Youds
+ 
+Computer Science graduate (2:1, UWE Bristol). I'm interested in cybersecurity and building things that actually work.
+ 
+## Projects
+ 
+**[Active Directory Pentest Lab — Advanced](https://github.com/otto-youds/active-directory-pentest-lab-advanced)**  
+Full domain compromise via IPv6 NTLM relay without cracking a single privileged password. Built and misconfigured the entire environment from scratch — LLMNR poisoning, Kerberoasting, BloodHound enumeration, IPv6 DNS takeover, pass-the-hash, and Golden Ticket persistence.
+ 
+**[Active Directory Pentest Lab](https://github.com/otto-youds/Active-Directory-Pentest-Lab)**  
+First AD lab — assumed breach engagement from low-privilege domain user to domain compromise. LLMNR poisoning, password spraying, Kerberoasting, BloodHound, lateral movement, and full credential dump. Documented with structured findings and remediation.
+ 
+**[Eye Tracking Robotic Arm](https://github.com/otto-youds/eye-tracking-robotic-arm)**  
+Robotic arm controlled by eye movement and hand gestures via a laptop webcam. MediaPipe facial landmark detection for gaze direction, servo control over SSH to a Raspberry Pi, and a live video feed streamed back from a camera mounted on the arm.
+ 
+## Skills
+ 
+Security — Active Directory, LLMNR/NBT-NS poisoning, Kerberoasting, NTLM relay, BloodHound, credential attacks, vulnerability identification  
+Networking — TCP/IP, DNS, SMB, LDAP, nmap  
+Systems — Windows Server, Active Directory, Group Policy, Linux CLI, Raspberry Pi 
+Programming — Python, SQL, C#, Git  
+Tools — Kali Linux, Impacket, Responder, CrackMapExec, BloodHound, OpenCV, MediaPipe  
+ 
+## Currently
+ 
+Working as Duty Manager while looking to move into a cybersecurity or IT role in Bristol and Somerset. Working towards Security+.
