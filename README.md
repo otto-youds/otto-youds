@@ -9,10 +9,12 @@ Full domain compromise via IPv6 NTLM relay without cracking a single privileged 
  
 **[Active Directory Pentest Lab](https://github.com/otto-youds/Active-Directory-Pentest-Lab)**  
 First AD lab — assumed breach engagement from low-privilege domain user to domain compromise. LLMNR poisoning, password spraying, Kerberoasting, BloodHound, lateral movement, and full credential dump. Documented with structured findings and remediation.
+
+__[Web Application Pentest Lab](https://github.com/otto-youds/web-app-pentest-lab)__ Black-box web application assessment against OWASP Juice Shop. Recon through gobuster enumeration and robots.txt analysis uncovered an unauthenticated FTP directory exposing a KeePass database and internal documents. SQLi authentication bypass, reflected XSS, IDOR on basket endpoints, JWT sensitive data exposure, and blind SSRF confirmed via outbound callback to an attacker server.
  
 **[Eye Tracking Robotic Arm](https://github.com/otto-youds/eye-tracking-robotic-arm)**  
 Robotic arm controlled by eye movement and hand gestures via a laptop webcam. MediaPipe facial landmark detection for gaze direction, servo control over SSH to a Raspberry Pi, and a live video feed streamed back from a camera mounted on the arm.
- 
+
 ## Skills
  
 Security — Active Directory, LLMNR/NBT-NS poisoning, Kerberoasting, NTLM relay, BloodHound, credential attacks, vulnerability identification  
