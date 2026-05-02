@@ -18,9 +18,13 @@ Robotic arm controlled by eye movement and hand gestures via a laptop webcam. Me
 ## Skills
  
 Security - Active Directory, LLMNR/NBT-NS poisoning, Kerberoasting, NTLM relay, BloodHound, credential attacks, vulnerability identification  
+
 Networking - TCP/IP, DNS, SMB, LDAP, nmap  
+
 Systems - Windows Server, Active Directory, Group Policy, Linux CLI, Raspberry Pi
+
 Programming - Python, SQL, C#, Git  
+
 Tools - Kali Linux, Impacket, Responder, CrackMapExec, BloodHound, OpenCV, MediaPipe  
  
 ## Currently
