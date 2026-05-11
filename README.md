@@ -6,8 +6,8 @@ Computer Science graduate (2:1, UWE Bristol). I'm interested in cybersecurity an
 
 ## Red team
 
-**[Microsoft Sentinel Detection Lab](https://github.com/otto-youds/microsoft-sentinel-detection-lab)**  
-Blue team detection layer built on Microsoft Sentinel responding to the attack chain from the hybrid identity lab. Covers SIEM deployment, Azure Arc onboarding, custom KQL detection rules for DCSync, Pass-the-Hash, and credential manipulation. All three rules fired and generated high severity incidents. Full incident response cycle followed through to closure including containment, eradication, and documentation.
+**[Azure AD Hybrid Identity Attack Lab](https://github.com/otto-youds/azure-ad-hybrid-identity-attack-lab)**  
+On-premises AD fully compromised and pivoted to Entra ID via AD Connect Password Hash Synchronisation abuse. DCSync, credential extraction, AD Connect database enumeration, and Microsoft Graph enumeration as a compromised synced user. Documents both successful and failed techniques including a CLR boundary encountered during mcrypt.dll decryption.
  
 **[Active Directory Pentest Lab — Advanced](https://github.com/otto-youds/active-directory-pentest-lab-advanced)**  
 Full domain compromise via IPv6 NTLM relay without cracking a single privileged password. Built and misconfigured the entire environment from scratch — LLMNR poisoning, Kerberoasting, BloodHound enumeration, IPv6 DNS takeover, pass-the-hash, and Golden Ticket persistence.
