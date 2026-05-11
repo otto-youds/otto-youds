@@ -3,6 +3,11 @@
 Computer Science graduate (2:1, UWE Bristol). I'm interested in cybersecurity and building things that actually work.
  
 ## Projects
+
+## Red team
+
+**[Microsoft Sentinel Detection Lab](https://github.com/otto-youds/microsoft-sentinel-detection-lab)**  
+Blue team detection layer built on Microsoft Sentinel responding to the attack chain from the hybrid identity lab. Covers SIEM deployment, Azure Arc onboarding, custom KQL detection rules for DCSync, Pass-the-Hash, and credential manipulation. All three rules fired and generated high severity incidents. Full incident response cycle followed through to closure including containment, eradication, and documentation.
  
 **[Active Directory Pentest Lab — Advanced](https://github.com/otto-youds/active-directory-pentest-lab-advanced)**  
 Full domain compromise via IPv6 NTLM relay without cracking a single privileged password. Built and misconfigured the entire environment from scratch — LLMNR poisoning, Kerberoasting, BloodHound enumeration, IPv6 DNS takeover, pass-the-hash, and Golden Ticket persistence.
@@ -11,21 +16,29 @@ Full domain compromise via IPv6 NTLM relay without cracking a single privileged 
 First AD lab — assumed breach engagement from low-privilege domain user to domain compromise. LLMNR poisoning, password spraying, Kerberoasting, BloodHound, lateral movement, and full credential dump. Documented with structured findings and remediation.
 
 __[Web Application Pentest Lab](https://github.com/otto-youds/web-app-pentest-lab)__ Black-box web application assessment against OWASP Juice Shop. Recon through gobuster enumeration and robots.txt analysis uncovered an unauthenticated FTP directory exposing a KeePass database and internal documents. SQLi authentication bypass, reflected XSS, IDOR on basket endpoints, JWT sensitive data exposure, and blind SSRF confirmed via outbound callback to an attacker server.
+
+
+ ## Blue team
+
+**[Microsoft Sentinel Detection Lab](https://github.com/otto-youds/microsoft-sentinel-detection-lab)**  
+Blue team detection layer built on Microsoft Sentinel responding to the attack chain from the hybrid identity lab. Covers SIEM deployment, Azure Arc onboarding, custom KQL detection rules for DCSync, Pass-the-Hash, and credential manipulation. All three rules fired and generated high severity incidents. Full incident response cycle followed through to closure including containment, eradication, and documentation.
+
+ ## Development projects
  
 **[Eye Tracking Robotic Arm](https://github.com/otto-youds/eye-tracking-robotic-arm)**  
 Robotic arm controlled by eye movement and hand gestures via a laptop webcam. MediaPipe facial landmark detection for gaze direction, servo control over SSH to a Raspberry Pi, and a live video feed streamed back from a camera mounted on the arm.
 
 ## Skills
  
-Security - Active Directory, LLMNR/NBT-NS poisoning, Kerberoasting, NTLM relay, BloodHound, credential attacks, vulnerability identification  
+Security — Active Directory, LLMNR/NBT-NS poisoning, Kerberoasting, NTLM relay, BloodHound, credential attacks, hybrid identity attacks, SIEM deployment, KQL, incident response, threat detection  
 
-Networking - TCP/IP, DNS, SMB, LDAP, nmap  
+Networking — TCP/IP, DNS, SMB, LDAP, nmap  
 
-Systems - Windows Server, Active Directory, Group Policy, Linux CLI, Raspberry Pi
+Systems — Windows Server, Active Directory, Group Policy, Linux CLI, Raspberry Pi  
 
-Programming - Python, SQL, C#, Git  
+Programming — Python, SQL, C#, Git  
 
-Tools - Kali Linux, Impacket, Responder, CrackMapExec, BloodHound, OpenCV, MediaPipe  
+Tools — Kali Linux, Impacket, Responder, CrackMapExec, BloodHound, Microsoft Sentinel, OpenCV, MediaPipe 
  
 ## Currently
  
